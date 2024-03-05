@@ -1,5 +1,6 @@
+"use strict";
 function hello(firstName) {
-    console.log("hello ".concat(firstName));
+    console.log(`hello ${firstName}`);
 }
 hello("prateek");
 function sum(a, b) {
